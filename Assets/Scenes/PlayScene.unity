@@ -286,7 +286,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 893972c9d71be05469ab27bc9aad7d8f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -550,6 +550,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1923753583}
   - component: {fileID: 1923753584}
+  - component: {fileID: 1923753585}
   m_Layer: 0
   m_Name: 04_FatBlueEyesRedNose_01
   m_TagString: Untagged
@@ -624,6 +625,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1923753585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1923753582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49514b18188134982ae2f2563d71c880, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2012003256
 GameObject:
   m_ObjectHideFlags: 0
@@ -635,6 +648,7 @@ GameObject:
   - component: {fileID: 2012003257}
   - component: {fileID: 2012003258}
   - component: {fileID: 2012003259}
+  - component: {fileID: 2012003260}
   m_Layer: 0
   m_Name: Cat
   m_TagString: Untagged
@@ -721,6 +735,21 @@ CircleCollider2D:
   m_Offset: {x: -0.06, y: 0.03}
   serializedVersion: 2
   m_Radius: 0.6
+--- !u!114 &2012003260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2012003256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4f151cd03b47405481b511218fcd872, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jumpPower: 3.5
+  moveDistance: 2
+  maxMoveDistance: 2
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
