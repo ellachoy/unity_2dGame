@@ -25,6 +25,5 @@ public class MakeObject : MonoBehaviour
             timer = 0;
             Destroy(newbed, 10.0f);
         }
-      
     }
 }

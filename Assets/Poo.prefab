@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6727495926936021961}
   - component: {fileID: 1446791455860185329}
   - component: {fileID: 6707436722000417953}
+  - component: {fileID: 737410150134336444}
   m_Layer: 0
   m_Name: Poo_2
   m_TagString: Untagged
@@ -118,8 +119,20 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.31, y: 0.21}
+  m_Size: {x: 0.48, y: 0.08}
   m_Direction: 0
+--- !u!114 &737410150134336444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1547876475455944946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90d953876641a48a2a7f5aa6659553c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2492564275357713031
 GameObject:
   m_ObjectHideFlags: 0
@@ -178,6 +191,7 @@ GameObject:
   - component: {fileID: 7886132902071177422}
   - component: {fileID: 905370862722878203}
   - component: {fileID: 5972786488886369368}
+  - component: {fileID: 6446367861294142537}
   m_Layer: 0
   m_Name: Poo__1
   m_TagString: Untagged
@@ -285,5 +299,17 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.31, y: 0.21}
+  m_Size: {x: 0.46, y: 0.08}
   m_Direction: 0
+--- !u!114 &6446367861294142537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3243942778315927896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90d953876641a48a2a7f5aa6659553c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
