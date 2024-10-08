@@ -20,6 +20,7 @@ public class CatMove : MonoBehaviour
         //jump
         if (Input.GetMouseButtonDown(0))
         {
+            GetComponent<AudioSource>().Play();
             rigid2D.velocity = Vector2.up * jumpPower;
         }
 
